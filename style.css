@@ -1,0 +1,52 @@
+@font-face {
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/PFDinTextCompPro-Medium.ttf);
+  font-family: pfd-medium;
+}
+@font-face {
+  src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/PT_Sans-Web-Regular.ttf);
+  font-family: ptsans-regular;
+}
+
+body{
+
+   background-size: cover;
+   font-size: 62.5%;
+   overflow: hidden;
+}
+.section-heading {
+  padding-top: 220px;
+
+  font-size: 9rem;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: pfd-medium;
+  cursor: pointer;
+  margin: 0;
+}
+.section-heading{
+  display: block;
+
+  color: black;
+
+}
+.additional-text {
+  padding-top:10px;
+  margin: 0;
+  font-weight: lighter;
+  color: black;
+  text-align:center;
+  font-size: 1.5rem;
+  font-family: pfd-medium;
+}
+.info{
+  color: black;
+  text-align:center;
+  font-size: 0.9rem;
+  font-family: pfd-medium;
+  text-transform: uppercase;
+  color: black;
+}
+a{
+text-decoration: none;
+color: black;
+}
