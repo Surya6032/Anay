@@ -3,31 +3,22 @@
     <head>
       <meta name="viewport" content="width=device-width, user-scalable=yes">
       <meta charset='utf-8'>
+
       <title>Anay Rojra</title>
+      <link href="https://fonts.googleapis.com/css?family=Raleway:900" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
         <!-- CSS property to place div
             side by side -->
         <style>
-        @import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css');
-            #leftbox {
-                float:left !important;
-
-                width:25%;
-                height:280px;
-            }
-
-            h1{
-                color:green;
-                text-align:center;
-            }
-            * {
-  box-sizing: border-box;
-}
+$headline-color: #222222;
 
 body {
   margin: 0;
   font-family:Serif;
   font-weight: 60;
   font-size:small;
+  text-align:center;
+  color:black;
 }
 
 .header {
@@ -41,6 +32,7 @@ body {
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding: 0 4px;
+  padding-left: 20%;
 }
 
 /* Create four equal columns that sits next to each other */
@@ -65,7 +57,10 @@ body {
     max-width: 50%;
   }
 }
-
+h1{
+  text-align:center!important;
+  font-color:black !important;
+}
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
@@ -74,6 +69,16 @@ body {
     max-width: 100%;
   }
 }
+
+header.header h1 {
+  color: #222222;
+  text-align: center;
+  text-transform: uppercase;
+
+}
+
+
+
 
 #new{
   padding-top: 150px;
@@ -93,20 +98,11 @@ a:link {
 
     <body>
 
-        <div id = "boxes">
-          <h1></h1>
-
-            <div id = "leftbox">
-                <h2 class="head"><a href='index.html'/>Anay Rojra</a></h2>
-                <br>
-                <p class="head">PHOTOGRAPHS</p>
-                <p class="head">INFO</p>
-                <br>
-
-            </div>
+      <header class="header">
+        <h1 >Anay Rojra</h1>
+      </header>
 
 
-        </div>
 
         <div class="row " >
 
@@ -136,5 +132,8 @@ a:link {
   </div>
 
 </div>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+
     </body>
 </html>
